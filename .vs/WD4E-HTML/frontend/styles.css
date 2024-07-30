@@ -1,0 +1,65 @@
+body {
+    height: 120vh;
+    background-image: url('../images/Image.jpg');
+    background-size: cover;  /* Cover the entire background area */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+    margin: 0;
+    color: #000;
+    font-family: Arial, sans-serif;
+  }
+  header, footer {
+    background-color: #000;
+    color: #ffff00;
+    text-align: center;
+    padding: 1em;
+  }
+  nav a {
+    color: #ffff00;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  main {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    border: 5px;
+    color: white;
+  }
+  form {
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 1); 
+    border: 10px solid #ccc;
+    color: #000;
+    border-radius: 10px;
+  }
+  label {
+    display: block;
+    color: #000;
+    margin: 10px 0 5px;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #000;
+  }
+  @media (max-width: 768px) {
+    body {
+        background-size: contain; /* Adjust background size on smaller screens */
+    }
+}
