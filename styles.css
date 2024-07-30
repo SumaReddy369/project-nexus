@@ -1,0 +1,87 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(50deg, #ff7eff, #7bffff, #0000ff,  #ff7eff);
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 400px;
+    background: grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-toggle button {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .form-toggle button:hover {
+    background: #f0f0f0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p {
+    margin: 0 0 20px;
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background: #ff005f;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #feb47b;
+  }
+  @media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+  
+    input {
+        font-size: 14px;
+    }
+  
+    button {
+        font-size: 14px;
+    }
+  }
