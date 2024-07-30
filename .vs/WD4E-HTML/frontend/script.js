@@ -17,7 +17,7 @@ document.getElementById('signup-form')?.addEventListener('submit', async functio
     event.preventDefault();
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
-    const response = await fetch('http://localhost:3000/signup', {
+    const response = await fetch('http://localhost:3001/signup', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
